@@ -1,0 +1,23 @@
+.main__heading-container {
+  width: 100%;
+}
+
+.main__generate {
+  width: 100%;
+}
+
+.copied {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: $font-base;
+  background-color: $color-gray-darker;
+  color: $color-white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  opacity: 0;
+  -webkit-transition: opacity 0.4s linear;
+  transition: opacity 0.3s linear;
+  z-index: 99;
+}

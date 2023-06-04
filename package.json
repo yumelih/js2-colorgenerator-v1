@@ -1,0 +1,14 @@
+{
+  "name": "color-generator-js2",
+  "version": "1.0.0",
+  "description": "This is an app used for generating color and color palletes. Their hex can copied.",
+  "main": "script.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Yusuf Akyurek",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}

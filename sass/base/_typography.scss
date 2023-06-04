@@ -1,0 +1,21 @@
+.main {
+  &__heading {
+    margin: 4rem 0;
+    font-weight: 700;
+  }
+  &__sub-text {
+    margin: 2rem 0 0;
+    color: rgba($color-black, 0.75);
+  }
+
+  &__sub-text-1 {
+    font-weight: 700;
+  }
+
+  &__sub-text-2 {
+    display: inline-block;
+    background-color: $color-green;
+    padding: 1rem 1.5rem;
+    border-radius: 4rem;
+  }
+}

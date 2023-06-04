@@ -1,0 +1,21 @@
+.main__btn {
+  display: block;
+  margin: 2rem auto 1rem;
+  padding: 1.5rem 6rem;
+  background-color: $color-purple;
+  color: $color-white;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0.5rem 1rem 1rem rgba($color-black, 0.2);
+  cursor: pointer;
+  transition: all 0.2s;
+
+  &:hover {
+    box-shadow: 0.8rem 1.5rem 1rem rgba($color-black, 0.2);
+  }
+
+  &:active {
+    box-shadow: 0.4rem 0.75rem 1rem rgba($color-black, 0.2);
+    transform: translateY(0.2rem);
+  }
+}

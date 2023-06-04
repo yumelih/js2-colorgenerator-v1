@@ -1,0 +1,23 @@
+.row {
+  max-width: $grid-width;
+  margin: 5rem auto;
+  padding: 0 0;
+
+  &:not(:last-child) {
+    margin-bottom: $gutter-vertical;
+  }
+
+  @include clearfix;
+
+  [class^="col-"] {
+    float: left;
+    &:not(:last-child) {
+      margin-right: $gutter-horizontal;
+    }
+  }
+
+  .col-1-of-6 {
+    width: calc((100% - #{$gutter-horizontal}) / 6.5);
+    margin-bottom: 4rem;
+  }
+}
